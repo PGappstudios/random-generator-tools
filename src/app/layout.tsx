@@ -16,9 +16,23 @@ export default function RootLayout({ children }: RootLayoutProps) {
   return (
     <html lang="en">
       <head>
+        {/* Google tag (gtag.js) */}
+        <Script
+          async
+          src="https://www.googletagmanager.com/gtag/js?id=G-B44QWD1FE5"
+          strategy="afterInteractive"
+        />
+        <Script id="google-analytics" strategy="afterInteractive">
+          {`
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+
+            gtag('config', 'G-B44QWD1FE5');
+          `}
+        </Script>
         <link rel="canonical" href="https://random-generator-tools.com" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9894683094010434" crossOrigin="anonymous"></script>
         <Script
           id="structured-data"
           type="application/ld+json"
@@ -59,7 +73,6 @@ export default function RootLayout({ children }: RootLayoutProps) {
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
             {children}
           </div>
-          {/* Rest of your existing layout content */}
         </main>
       </body>
     </html>
