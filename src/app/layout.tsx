@@ -358,9 +358,22 @@ export default function RootLayout({ children }: RootLayoutProps) {
                   Whether you need to pick a random winner, generate random numbers, or make a random selection 
                   from a list, our tools are here to help.
                 </p>
-                <p className="text-sm text-gray-500">
-                  © {new Date().getFullYear()} Random Generator Tools. All rights reserved.
-                </p>
+                <div className="space-y-4">
+                  <p className="text-sm text-gray-500">
+                    © {new Date().getFullYear()} Random Generator Tools. All rights reserved.
+                  </p>
+                  <p className="text-sm">
+                    Created by{' '}
+                    <a 
+                      href="https://www.pgappstudios.com" 
+                      target="_blank" 
+                      rel="noopener noreferrer"
+                      className="text-blue-600 hover:text-violet-600 transition-colors duration-300 font-medium"
+                    >
+                      PG App Studios
+                    </a>
+                  </p>
+                </div>
               </div>
             </div>
           </footer>
