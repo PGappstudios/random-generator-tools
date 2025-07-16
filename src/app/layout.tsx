@@ -15,7 +15,6 @@ interface RootLayoutProps {
 
 export default function RootLayout({ children }: RootLayoutProps) {
   const currentDate = new Date().toISOString();
-  
   return (
     <html lang="en" itemScope itemType="https://schema.org/WebApplication">
       <head>
@@ -314,7 +313,7 @@ export default function RootLayout({ children }: RootLayoutProps) {
           {/* Recommended Products Section */}
           <section className="w-full py-16 bg-gradient-to-br from-white via-blue-50/30 to-violet-50/30" role="complementary" aria-label="Recommended products">
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-              <h2 className="text-3xl font-bold bg-gradient-to-r from-blue-600 to-violet-600 bg-clip-text text-transparent mb-12">
+              <h2 className="text-3xl font-bold text-center mb-12 bg-gradient-to-r from-blue-600 to-violet-600 bg-clip-text text-transparent">
                 Recommended Products
               </h2>
               <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
@@ -328,7 +327,7 @@ export default function RootLayout({ children }: RootLayoutProps) {
                   </div>
                   <div className="mt-6">
                     <a 
-                      href="https://www.amazon.com/dp/B0B3D4S6TF?tag=pgstudios0a-20"
+                      href="https://amzn.to/3Iy5Lnr"
                       target="_blank"
                       rel="nofollow noopener"
                       className="inline-block w-full text-center bg-gradient-to-r from-blue-500 to-violet-500 hover:from-blue-600 hover:to-violet-600 text-white px-6 py-3 rounded-full font-medium shadow-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-0.5"
@@ -349,7 +348,7 @@ export default function RootLayout({ children }: RootLayoutProps) {
                   </div>
                   <div className="mt-6">
                     <a 
-                      href="https://www.amazon.com/dp/B0C2R639HZ?tag=pgstudios0a-20"
+                      href="https://amzn.to/44U61Vr"
                       target="_blank"
                       rel="nofollow noopener"
                       className="inline-block w-full text-center bg-gradient-to-r from-blue-500 to-violet-500 hover:from-blue-600 hover:to-violet-600 text-white px-6 py-3 rounded-full font-medium shadow-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-0.5"
@@ -370,7 +369,7 @@ export default function RootLayout({ children }: RootLayoutProps) {
                   </div>
                   <div className="mt-6">
                     <a 
-                      href="https://www.amazon.com/dp/B0B3CXGGSB?tag=pgstudios0a-20"
+                      href="https://amzn.to/4fbWu0V"
                       target="_blank"
                       rel="nofollow noopener"
                       className="inline-block w-full text-center bg-gradient-to-r from-blue-500 to-violet-500 hover:from-blue-600 hover:to-violet-600 text-white px-6 py-3 rounded-full font-medium shadow-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-0.5"
@@ -391,7 +390,7 @@ export default function RootLayout({ children }: RootLayoutProps) {
                   </div>
                   <div className="mt-6">
                     <a 
-                      href="https://www.amazon.com/dp/B0D2C1888D?tag=pgstudios0a-20"
+                      href="https://amzn.to/4lWLOFd"
                       target="_blank"
                       rel="nofollow noopener"
                       className="inline-block w-full text-center bg-gradient-to-r from-blue-500 to-violet-500 hover:from-blue-600 hover:to-violet-600 text-white px-6 py-3 rounded-full font-medium shadow-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-0.5"
@@ -519,4 +518,4 @@ export default function RootLayout({ children }: RootLayoutProps) {
       </body>
     </html>
   );
-}
+} 
