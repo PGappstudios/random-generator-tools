@@ -328,7 +328,7 @@ export default function RootLayout({ children }: RootLayoutProps) {
                   </div>
                   <div className="mt-6">
                     <a 
-                      href="https://amzn.to/4kW05mb"
+                      href="https://www.amazon.com/dp/B0B3D4S6TF?tag=pgstudios0a-20"
                       target="_blank"
                       rel="nofollow noopener"
                       className="inline-block w-full text-center bg-gradient-to-r from-blue-500 to-violet-500 hover:from-blue-600 hover:to-violet-600 text-white px-6 py-3 rounded-full font-medium shadow-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-0.5"
@@ -349,7 +349,7 @@ export default function RootLayout({ children }: RootLayoutProps) {
                   </div>
                   <div className="mt-6">
                     <a 
-                      href="https://amzn.to/41QnyML"
+                      href="https://www.amazon.com/dp/B0C2R639HZ?tag=pgstudios0a-20"
                       target="_blank"
                       rel="nofollow noopener"
                       className="inline-block w-full text-center bg-gradient-to-r from-blue-500 to-violet-500 hover:from-blue-600 hover:to-violet-600 text-white px-6 py-3 rounded-full font-medium shadow-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-0.5"
@@ -370,7 +370,7 @@ export default function RootLayout({ children }: RootLayoutProps) {
                   </div>
                   <div className="mt-6">
                     <a 
-                      href="https://amzn.to/4ivKxnx"
+                      href="https://www.amazon.com/dp/B0B3CXGGSB?tag=pgstudios0a-20"
                       target="_blank"
                       rel="nofollow noopener"
                       className="inline-block w-full text-center bg-gradient-to-r from-blue-500 to-violet-500 hover:from-blue-600 hover:to-violet-600 text-white px-6 py-3 rounded-full font-medium shadow-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-0.5"
@@ -391,7 +391,7 @@ export default function RootLayout({ children }: RootLayoutProps) {
                   </div>
                   <div className="mt-6">
                     <a 
-                      href="https://amzn.to/4kKmh2B"
+                      href="https://www.amazon.com/dp/B0D2C1888D?tag=pgstudios0a-20"
                       target="_blank"
                       rel="nofollow noopener"
                       className="inline-block w-full text-center bg-gradient-to-r from-blue-500 to-violet-500 hover:from-blue-600 hover:to-violet-600 text-white px-6 py-3 rounded-full font-medium shadow-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-0.5"
